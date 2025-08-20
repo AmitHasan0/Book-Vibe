@@ -6,16 +6,19 @@ const NavBar = () => {
     <>
       <Link to="/">
         {" "}
-        <li className="m-2">Home</li>
+        <li className="m-2 font-bold">Home</li>
       </Link>
       <Link to="/about">
         {" "}
-        <li className="m-2">About</li>
+        <li className="m-2 font-bold">About</li>
+      </Link>
+      <Link to="readList">
+        <li className="m-2 font-bold">Read List</li>
       </Link>
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm mb-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

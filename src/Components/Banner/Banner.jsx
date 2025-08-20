@@ -2,7 +2,7 @@ import React from "react";
 import bannerImage from "../../assets/pngwing 1.png";
 const Banner = () => {
   return (
-    <div className="bg-gray-200 rounded-4xl flex justify-around items-center p-20">
+    <div className="bg-gray-200 rounded-4xl flex justify-around items-center p-20 mb-40">
       <div>
         <h1 className="playfair-display font-bold text-5xl mb-5">
           Books to freshen up <br /> your bookshelf
